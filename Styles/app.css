@@ -1,0 +1,60 @@
+/* Styling For App */
+
+#app-container {
+    border: 2px solid black;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.weather-app-heading{
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    width: 88%;
+    margin-top: 20px;
+
+    font-family: sans-serif;
+}
+
+#weather-data-div {
+    border: 2px solid red;
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-data {
+    display: block;
+    margin: auto;
+    font-size: 24px;
+}
+
+#input-field{
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    height: 40px;
+    width: 90%;
+}
+
+#weather-button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px 12px;
+    background-color: #FF3D00;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#weather-button:hover{
+    background-color: #ff4f1a;
+    transform: scale(1.02); 
+}
+
