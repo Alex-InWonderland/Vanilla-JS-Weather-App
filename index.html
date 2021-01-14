@@ -11,7 +11,8 @@
 <body>
     <div id="app-container">
         <h1 class="weather-app-heading">Get Current Weather App</h1>
-        <div id="weather-data-div">
+        <p id="weather-app-sentence" class="weather-app-sentence">The current weather is: </p>
+        <div id="weather-data-div" class="weather-data-div">
             <!--The span below is where the temperature will be displayed-->
             <span class="temp" id="temp"></span>
         </div>
@@ -20,6 +21,8 @@
         <form>
             <input id="input-field" class="form-data" type="text" placeholder="Enter a City" />
             <button type="button" class="form-data" id="weather-button">Get Current Weather</button>
+            <hr id="divider" class="divider">
+            <button type="reset" class="form-data reset-button-display" id="reset-button">Reset Input Field</button>
         </form>
     </div><!-- end of app container -->
 
