@@ -11,12 +11,23 @@ weatherButton.addEventListener("click", getWeather);
 
 function getWeather() {
     let url = apiPath + city.value + apiKey + units;
+
     fetch(url).then(response => {
-        console.log(ressponse);
+        console.log(response);
         return response.json();
     }).then(response => {
         console.log(response.main.temp);
+        let temp = response.main.temp;
+        console.log(temp);
+        displayTemp(temp);
     });
 
+
+
+}
+
+function displayTemp(temp) {
+    document.getElementById("temp").innerHTML = `${temp} °F`;
+    document.getElementById("temp").className = "temp";
 }
 
