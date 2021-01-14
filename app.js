@@ -22,8 +22,6 @@ function getWeather() {
         displayTemp(temp);
     });
 
-
-
 }
 
 function displayTemp(temp) {
