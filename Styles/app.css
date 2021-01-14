@@ -83,6 +83,7 @@
 #weather-button, .reset-button-display {
     margin-top: 30px;
     margin-bottom: 50px;
+    
     padding: 10px 12px;
     background-color: #FF3D00;
     border: 2px solid red;
@@ -94,7 +95,7 @@
     font-size: 24px;
 }
 
-.divider, #reset-button{
+.divider, .reset-button{
     display: none;
 }
 
@@ -103,7 +104,7 @@
     width: 70%;
 }
 
-#weather-button:hover{
+#weather-button:hover, #reset-button:hover{
     background-color: #ff4f1a;
     transform: scale(1.02); 
 }

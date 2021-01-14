@@ -29,7 +29,6 @@ function displayTemp(temp) {
     document.getElementById("weather-data-div").className = "weather-data-div-display"
     document.getElementById("weather-app-sentence").className = "weather-app-sentence-display";
     document.getElementById("divider").className = "divider-display";
-    document.getElementById("reset-button").className = "reset-button-display";
 }
 
 
