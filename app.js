@@ -2,7 +2,7 @@
 
 let apiPath = "https://api.openweathermap.org/data/2.5/weather?q=";
 let city = document.getElementById("input-field");
-let apiKey = "&appid=ac9c7e098804970df18b51b4503e8256";
+let apiKey = ""; /* Add your OpenWeatherMap API key here (insert into string) */
 let units = "&units=imperial"; /* Units of measurement for temperature */
 
 let weatherButton = document.getElementById("weather-button");
